@@ -1,6 +1,6 @@
 {
    "Description": "This template deploys a VPC, with a pair of public and private subnets spread\nacross two Availability Zones. It deploys an internet gateway, with a default\nroute on the public subnets. It deploys a pair of NAT gateways (one in each AZ),\nand default routes for them in the private subnets.",
-   
+   "AWSTemplateFormatVersion": "2010-09-09",
    "Parameters": {
       "EnvironmentName": {
          "Description": "An environment name that is prefixed to resource names",
