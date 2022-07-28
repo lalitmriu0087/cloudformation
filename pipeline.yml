@@ -31,7 +31,7 @@ Parameters:
     Default: 10.192.21.0/24
   
   AMI
-    Description: AMI
+    Description: will create instance 
     Type: String
     Default: ami-0b152cfd354c4c7a4
 
